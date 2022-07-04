@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: seashell;
+    font-family:Helvetica, sans-serif;
+}
+
+/* navigation */
+
+.nav{
+    border-bottom: 1px solid seashell;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    
+}
+
+.nav img{
+    width: 80px;
+    margin-right: 60px;
+    
+}
+
+.nav ul{
+    display: flex;   
+}
+.nav ul li{
+    list-style: none;
+    margin: 10px;
+    
+    
+}
+.nav ul li a{
+    text-decoration: none;
+    color: seashell;
+}
+
+/* header */
+
+header .container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('./assets/img-mission-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.banner-text{
+    background-color: black;
+    padding: 80px;
+    opacity: .8;
+}
+
+.banner-text h1{
+    text-align: center;
+    padding-bottom: 15px;
+    font-weight: 900;
+}
+
+
+main .container{
+    min-height: 100vh;
+    min-width: 100vw;
+    padding: 20px;
+    position: relative;
+    
+}
+
+.banner-text p{
+    text-align: center;
+}
+
+main .container .feature-box{
+    /* width: 300px;
+    height: 200px; */
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.feature-card{
+    padding: 10px;
+}
+
+.feature-card img{
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.feature-card h2{
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* location */
+
+main .location-container{
+
+    background-image: url('./assets/img-locations-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     
+   
+}
+
+
+.location-container h1{
+    text-align: center;
+}
+
+.location-container .location{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.location .location-box{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    background-color: black;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+
+    
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    text-align: center;
+}
